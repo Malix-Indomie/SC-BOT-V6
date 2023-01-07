@@ -12,7 +12,7 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
-    const detek = Math.floor( Kurang % (1000 * 60) / 1000)
+   const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let name = await conn.getName(m.sender)
   let runnya = `┏━━━ꕥ〔 *RUNTIME BOT* 〕ꕥ━⬣
 ┃✾ ⏲️ Waktu: ${time} WIB
